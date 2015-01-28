@@ -1,0 +1,25 @@
+/**
+* @version   $Id: master-ie11.css 18269 2014-01-29 20:20:30Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Menu Block */
+body .menu-block .gf-menu.l1 > li > .item {display: block;height: 32px;padding-top: 12px;}
+body .menu-block .gf-menu.l1 > li:before {top: 12px;}
+body .menu-block .gf-menu.l1 > li > .item.subtext {padding-top: 6px;padding-bottom: 6px;}
+
+/* Demo */
+body .rt-demo-portfolio .sprocket-mosaic-item .sprocket-mosaic-text {font-family: 'cabinregular',Verdana,Helvetica,Arial,sans-serif;}
+
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-80px)
+    }
+}

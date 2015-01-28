@@ -1,0 +1,50 @@
+/*
+Theme Name: Onekweb 
+Theme URI: http://onekweb.com/
+Description: The 2013 default theme for WordPress.
+Author: Mario Onekanda
+Author URI: http://onekweb.org/
+Version: 1.0
+Tags: Mario, Onekanda, onekweb
+*/
+
+body {
+    text-align: center;
+}
+
+#wrapper {
+    display: block;
+    border: 1px #000 solid;
+    width:90%;
+    margin:0px auto;
+}
+
+#header {
+    border: 2px #000 solid;
+}
+
+#content {
+    width: 75%;
+    border: 2px #000 solid;
+    float: left;
+}
+
+#sidebar {
+    width: 23%;
+    border: 2px #000 solid;
+    float: right;
+}
+
+#delimiter {
+    clear: both;
+}
+
+#footer {
+    border: 2px #000 solid;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: arial;
+    font-weight: bold;
+}

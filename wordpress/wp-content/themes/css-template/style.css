@@ -1,0 +1,110 @@
+/*
+Theme Name: Css-Template 
+Theme URI: http://onekweb.com/
+Description: The 2013 default theme for WordPress.
+Author: Mario Onekanda
+Author URI: http://onekweb.org/
+Version: 1.0
+Tags: Mario, Onekanda, onekweb
+
+*/
+
+#container
+{
+	margin: 0 auto;
+	width: 960px;
+	background:#fff;
+	border: 1px solid #999999;
+}
+
+#header
+{
+	background:#67B0E8;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 960px;
+	background:#000;
+        height: 50px;
+	border: 1px solid #999999;
+        
+}
+
+ul, ul li
+{
+list-style: none;
+
+}
+
+#header a
+{
+ color: white;
+ text-decoration: none;	
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 15px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background:#A7BB12; }
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+#content h1
+ {
+display:none;
+}
+
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+
+#content h3
+{
+	border-bottom: 3px solid #A7BB12;
+	width: 50%;
+	font-size:1.5em;
+}
+
+
+
+
+#footer
+{
+	background:#67B0E8;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+	border: 1px solid #999999;
+}

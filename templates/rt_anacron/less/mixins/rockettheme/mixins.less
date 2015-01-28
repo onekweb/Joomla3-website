@@ -1,0 +1,56 @@
+/**
+* @version   $Id: mixins.less 12813 2013-08-16 21:57:09Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+@import "utilities.less";
+@import "dropdowns.less";
+@import "popover.less";
+@import "buttons.less";
+
+/* Ellipsis */
+.ellipsis() {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+}
+
+// Text Color
+.textColor (@a) when (lightness(@a) >= 50%) {
+	color: darken(@a, 35%);
+}
+.textColor (@a) when (lightness(@a) < 50%) {
+	color: @light-grey;
+}
+
+// System Messages
+.sys-msg-style (@textColor: #0055BB, @bgColor: #BFD3E6) {
+	color: @textColor;
+	padding: 15px;
+	border-radius: 3px;
+	border-bottom: 2px solid darken(@bgColor, 20%);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+	#gradient > .vertical(darken(@bgColor, 5%), darken(@bgColor, 5%));
+}
+.sys-msg () {
+	.sys-msg-style(#0055BB, #BFD3E6);
+}
+.sys-msg (info) {
+	.sys-msg-style(#4A677D, #B2CADA);
+}
+.sys-msg (error) {
+	.sys-msg-style(#CC0000, #EFD3D4);
+}
+
+.sys-msg (notice) {
+	.sys-msg-style(#A08B4C, #F5ECC1);
+}
+.sys-msg (success) {
+	.sys-msg-style(#468847, #DFF0D8);
+}
